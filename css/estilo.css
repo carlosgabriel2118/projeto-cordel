@@ -30,8 +30,9 @@ header h1 {
     color: white;
     font-family: var(--fonte2);
     font-size: 9vw;
-    padding-top: 52px;
+    padding-top: 5vw;
     display: inline-block;
+    padding-bottom: 1vw;
 }
 
 header .h1 {
@@ -43,6 +44,7 @@ header .h1 {
 
 header p {
     color: white;
+    font-size: 2vw;
 }
 
 header a {
