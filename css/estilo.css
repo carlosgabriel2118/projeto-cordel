@@ -69,7 +69,7 @@ header a:hover {
 
 #bac1 {
     background-image: url(../imagens/background001.jpg);
-    height:70vh;
+    height:70vw;
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,7 +93,7 @@ header a:hover {
 
 #bac2 {
     background-image: url(../imagens/background002.jpg);
-    height:70vh;
+    height:70vw;
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
