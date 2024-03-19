@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte1);
+}
+
+header {
+    height: 205px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fonte2);
+    font-size: 9vw;
+    padding-top: 52px;
+    display: inline-block;
+}
+
+header .h1 {
+    display: inline-block;
+    color: white;
+    font-size: 6.8vw;
+    
+}
+
+header p {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.alinhamento {
+    font-family: var(--fonte3);
+    width: 42vw;
+    height: 46vw;
+    line-height: 7vw;
+    margin: 30px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    font-size: 3.5vw;
+    padding-bottom: 50px;
+}
+
+#bac1 {
+    background-image: url(../imagens/background001.jpg);
+    height:70vh;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 60px;
+}
+
+#bac1 p {
+    position: absolute;
+    font-family: var(--fonte3);
+    width: 42vw;
+    height: 48vw;
+    line-height: 7vw;
+    margin: 30px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    font-size: 3.5vw;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+}
+
+#bac2 {
+    background-image: url(../imagens/background002.jpg);
+    height:70vh;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 60px;
+}
+
+#bac2 p {
+    position: absolute;
+    font-family: var(--fonte3);
+    width: 42vw;
+    height: 48vw;
+    line-height: 7vw;
+    margin: 30px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    font-size: 3.5vw;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
